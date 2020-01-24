@@ -31,10 +31,16 @@
     // $pass = "<Password admin database Anda>";
     // $db = "<Nama database Anda>";
 
-    $host = "maulanaappserver.database.windows.net";
-    $user = "riyan99";
-    $pass = "bismillah19999+";
-    $db = "maulanadb";
+//     $host = "maulanaappserver.database.windows.net";
+//     $user = "riyan99";
+//     $pass = "bismillah19999+";
+//     $db = "maulanadb";
+
+
+    $host = "dicodingservernya.database.windows.net";
+    $user = "maulana99";
+    $pass = "bismillah1999+";
+    $db = "dicodingmacd";
 	
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
